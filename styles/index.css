@@ -1,5 +1,5 @@
 
-/* Full-screen body */
+/* Flexbox-card section */
 body {
     width: 100vw;
     height: 100vh;
@@ -27,7 +27,7 @@ body {
     justify-content: space-between;
 }
 
-/* Boxes */
+/* Boxes in general styling */
 .box {
     width: 90%;
     height: 50%;
@@ -62,69 +62,80 @@ body {
     background-color: #8A9A5B;
 }
 
+/*first box styling*/
 .first{
     align-items: flex-end;
 }
 
+/*second box styling*/
 .second{
     justify-content: flex-end;
 }
 
+/*third box styling*/
 .third{
     align-items: stretch;
     justify-content: space-around;
 }
 
+/*paragraph in the third box styling*/
 p {
     font-size: 14px;
+    text-align: justify;
+    font-size: 15px;
   }
 
+/*card in the middle from the third box styling*/
 .middle{
     align-self: center;
 }
 
+/*fourth box styling*/
 .fourth{
     align-items: stretch;
     justify-content: center;
 }
 
+/*fifth box styling*/
 .fifth{
     align-items: flex-start;
     justify-content: space-between;
 }
 
+/*the last card from the fifth box styling*/
 .last{
     align-self: flex-end;
 }
 
+/*sixth box styling*/
 .sixth{
     justify-content: space-around;
 }
 
+/*card with the id-name "grow" from the sixth box*/
 .grow{
     flex-grow: 2;
 }
 
+/*generalize the sizing of images*/
 .img {
     height: 78px;
     width: 78px;
   }
 
-  p {
-    text-align: justify;
-    font-size: 15px;
-  }
-
+/*sizing for a specific image in the fourth-box*/
   .img2 {
     height: 120px;
     width: 78px;
   }
 
+/*sizing for a specific image with the id-name "turtle" from the sixth-box*/  
   .turtle{
     height: 78px;
     width: 180px;
   }
 
-  /*round section*/
+
+  /*Flexbox round-shape section*/
 
   
