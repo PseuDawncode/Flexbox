@@ -3,9 +3,11 @@
 body {
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
     box-sizing: border-box;
     background-color: #d5ccc6;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /* Container */
@@ -16,6 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #a89968;
 }
 
 /* Columns */
@@ -25,6 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Boxes in general styling */
@@ -136,6 +140,116 @@ p {
   }
 
 
-  /*Flexbox round-shape section*/
+/*Flexbox round-shape section*/
 
+.round {   /*container*/
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #a0b2a2;
+
+}
+
+.column__round{
+    width: 48%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.box__round {
   
+        width: 70%;
+        height: 35%;
+        background-color: #efdbb2;
+        border: 2px solid #333;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 20px;
+        
+
+}
+
+.crd{
+    width: 80px;
+    height: 80px;
+    background-color: #f3c677;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.blue{
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #175676;
+    flex-direction: column;
+}
+
+.blue:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    background-color: #0d7fd7;
+}
+
+.brown{
+    justify-content: space-around;
+    background-color: #825d4c;
+}
+
+.brown:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    background-color: #742401;
+}
+
+.red{
+    background-color: #b23a48;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.red:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    background-color: #b50c14;
+}
+
+.gray{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #525252;
+}
+
+.gray:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    background-color: #392b2b;
+}
+
+.purple{
+    background-color: #4f4772;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.purple:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    background-color: #61056c;
+}
+
